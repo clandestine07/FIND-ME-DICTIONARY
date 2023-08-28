@@ -216,8 +216,11 @@ body{
     .italic {
       font-size: 14px;
     }
+    .para-meaning{
+        font-size: 10px;
+    }
     .example {
-      font-size: 20px;
+      font-size: 10px;
     }
     .play {
       margin-left: 10pxs;
