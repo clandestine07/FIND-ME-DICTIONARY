@@ -13,11 +13,6 @@ body{
     overflow-y: hidden;
 
 }
-.top-header{
-    font-family: 'Dancing Script', cursive;
-    margin: 20px 0 0 40px;
-}
-
 .container{
     top: 0%;
     width: 100%;
@@ -183,9 +178,6 @@ body{
     .body{
         overflow-x: hidden;
     }
-    .top-header{
-        margin-left: 41%;
-    }
     .container {
       flex-direction: column;
       align-items: center;
@@ -193,23 +185,20 @@ body{
     
     .search-box {
       top: 10%;
-        left: 50%;
+      left: 50%;
     }
     
     .result-section {
       display: none;
-      top: 53%;
+      top: 51%;
       left: 52%;
       transform: translate(-50%, -50%);
       width: 70%;
       border-radius: 10px;
-     
     }
-    
     .content {
       width: 100%;
       border-radius: 10px;
-
     }
     .search-item{
         display: flex;
@@ -219,22 +208,17 @@ body{
     .search{
         width: 260px;
         height: 30px;
-
     }
-    
     .sound-box {
       justify-content: space-between;
     }
-    
     .phonetics,
     .italic {
       font-size: 14px;
     }
-    
     .example {
       font-size: 20px;
     }
-    
     .play {
       padding: 15px;
     }
