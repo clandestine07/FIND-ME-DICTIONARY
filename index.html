@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+</head>
+<body>
+    
+    <audio id="sound">
+    </audio>
+    <h1 class="top-header">FIND ME ⚡</h1>
+    <div class="container">
+
+        <!--SEARCH BOX -->
+        <div class="search-box">
+            <h1 class="find"></h1>
+            <div class="search-item">
+                <input type="text" class="search" id="input" placeholder="Enter a word">
+                <button class="button" id="button"><i class="fa-brands fa-searchengin"></i></button>
+            </div>
+        </div>
+                <!--DISPLAY BOX -->
+        <div class="result-section" id="result"></div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+    <!--text animation script-->
+    <script>
+        var typed = new Typed('.find', {
+          strings: ['<i>GLOSSARY</i>'],
+          typeSpeed: 60,
+        });
+
+
+        //dark mode script
+        function addDarkmodeWidget() {
+            new Darkmode().showWidget();
+        }
+        const options = {
+        top: '64px', 
+        right: '32px',
+        left: 'unset',
+        time: '0.5s', 
+        mixColor: '#fff', 
+        backgroundColor: '#fff',  
+        buttonColorDark: '#100f2c',  
+        buttonColorLight: '#fff', 
+        saveInCookies: false, 
+        label: '⚡', 
+        autoMatchOsTheme: true 
+        }
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+      </script>
+    
+</body>
+</html>
