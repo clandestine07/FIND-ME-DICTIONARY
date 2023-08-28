@@ -50,6 +50,21 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.search{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(214, 118, 14);
+    padding: 20px;
+    border: 4px solid purple;
+    border-radius: 25px;
+
+}
 .search-item{
     display: flex;
     justify-content: space-between;
@@ -60,27 +75,13 @@ body{
 .search-item ::placeholder {
     font-family: Arial, sans-serif;
     font-size: 20px;
-    color: rgb(15, 163, 231);
+    color: rgb(10, 10, 10);
 }
 .search-item :hover{
     background-color: purple;
     transition: 0.5s ease-in-out;
 }
 
-.search{
-    width: 400px;
-    height: 30px;
-    margin-top: 10px;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    color: rgb(129, 19, 148);
-    padding: 20px;
-    border: 4px solid purple;
-    border-radius: 25px;
-
-}
 
 .button-src{
     position: absolute;
