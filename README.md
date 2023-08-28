@@ -1,2 +1,1 @@
-CREATED A DICTIONARY APP
-live link : http://findmedictionary.netlify.app/
+CREATED A DICTIONARY APP : http://findmedictionary.netlify.app/
