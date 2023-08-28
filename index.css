@@ -182,7 +182,7 @@ body{
         overflow-x: hidden;
     }
     .top-header{
-        margin-left: 45%;
+        margin-left: 41%;
     }
     .container {
       flex-direction: column;
@@ -195,7 +195,8 @@ body{
     }
     
     .result-section {
-      top: 55%;
+      display: none;
+      top: 53%;
       left: 52%;
       transform: translate(-50%, -50%);
       width: 70%;
