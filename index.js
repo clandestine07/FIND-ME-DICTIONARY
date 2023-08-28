@@ -1,6 +1,6 @@
 'use strict'
 
-const searchBtn = document.getElementById("button");
+const searchBtn = document.getElementById("button-search");
 const playSound = document.getElementById("sound");
 const resultSection = document.getElementById('result');
 const container = document.querySelector('.container');
@@ -20,6 +20,7 @@ const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";    //API
 // }
 
 searchBtn.addEventListener('click', () => {
+    resultSection.style.display = 'block';
     const word = document.getElementById("input").value;
     fetch(`${url}${word}`).then((response) =>    // FETCHING API AND HANDLING PROMISES USING then()
         response.json()).then((data) => {
